@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  html{
+    --bg-color: #e0e6fe;
+    --Text-color: #00082F;
+    --primary-color: #4263EB ;
+    --primary-color-dark:#3020e6;
+  }
+  body.dark-blue{
+    --bg-color:  #00082F;
+    --Text-color: #ffffff;
+  }
+  body.pink{
+    --bg-color:#fff0f6;
+    --text-color: #1F000B; 
+    --primary-color: #D6336C;
+    --primary-color-dark:#a61e4d;
+    }
+  
+    body.dark-pink{
+    --bg-color:#1F000B;
+    --text-color:#220909;
+    --primary-color: #D6336C;
+    --primary-color-dark:#a61e4d;
+    }
+  
+    body.green{
+    --bg-color:#93f0c5;
+    --text-color:#1d0303;
+    --primary-color: #189a57;
+    --primary-color-dark:#125c3c;
+    }
+    body.dark-green{
+        --bg-color:#0b3a21;
+    --text-color:#ffffff;
+    --primary-color: #0df47d;
+    --primary-color-dark:#00a25c;
+  
+    }
+  
+  body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  .container{
+    
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  img{
+    border-radius: 50%;
+    
+    width:100px ;
+    height: 100px;
+    padding: 3.7px;
+    border: var(--primary-color) solid 4px;
+    }
+     h1{
+      font-size: 32px;
+      margin-top: 24px;
+      margin-top: 8px;
+    }
+    p{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400px;
+  opacity: 0.8;
+  font-size: 18px;
+    }
+    ul{
+      list-style: none;
+      margin: 48px 0;
+    }
+   
+    ul li a {
+      height:53px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-color);
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-bottom: 16px;
+      border-radius: 6px;
+    }
+    ul li a:hover{
+      background: var(--primary-color-dark);
+      
+    } 
+    footer{
+      font-weight: 500px;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+    footer a {
+       color:var(--text-color);
+    }
+    footer:hover{
+      opacity: 1;
+        }
+  img:hover{
+    opacity: 0.5;
+  }
