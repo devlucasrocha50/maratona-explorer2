@@ -43,6 +43,12 @@
     --primary-color-dark:#00a25c;
   
     }
+    body.dark-mode{
+      --bg-color:#000000;
+--text-color:#ffffff;
+--primary-color: #343232;
+--primary-color-dark:#9b9b9b;
+}
   
   body{
     background: var(--bg-color);
